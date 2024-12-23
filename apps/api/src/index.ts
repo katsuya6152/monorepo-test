@@ -15,6 +15,7 @@ app.use(
   cors({
     origin: ["http://localhost:3000", "https://monorepo-test-d1w.pages.dev"],
     allowMethods: ["GET", "POST", "DELETE", "OPTIONS"],
+    allowHeaders: ["Content-Type"],
   })
 );
 
