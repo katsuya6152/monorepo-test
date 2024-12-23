@@ -4,5 +4,5 @@ compatibility_date = "2024-01-01"
 
 
 d1_databases = [
-  { binding = "DB", database_id = "1862c980-e6ba-46ad-9d5a-15d26677f0e2" }
+  { binding = "DB", database_name = "mydatabase", database_id = "1862c980-e6ba-46ad-9d5a-15d26677f0e2" }
 ]
