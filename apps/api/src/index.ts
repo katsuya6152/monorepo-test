@@ -13,7 +13,7 @@ const app = new Hono<{ Bindings: Bindings }>();
 app.use(
   "*",
   cors({
-    origin: ["http://localhost:3000", "hhttps://monorepo-test-d1w.pages.dev"],
+    origin: ["http://localhost:3000", "https://monorepo-test-d1w.pages.dev"],
     allowMethods: ["GET", "POST", "DELETE", "OPTIONS"],
   })
 );
